@@ -1,10 +1,11 @@
 # terra
 
-## installazione
+## versione semplice
+### installazione
 
-Per la versione semplice (pagina web statica) puoi semplicemente mettere il file html nella stessa cartella in cui si trova la libreria `terra.min.js`, che a sua volta è nella cartella `dist`
+scarica questo repository e metti tutto il suo contenuto in una normale cartella. La cosa importante è che ci sia la cartella `dist` contenente la libreria terra (`terra.min.js`)
 
-all'interno del file html (nella sezione `head`) si trova la seguente riga, che serve a importare la libreria:
+All'interno del file html (nella sezione `head`) si trova la seguente riga, che serve a importare la libreria:
 
 ```html
 <head>
