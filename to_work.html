@@ -31,6 +31,37 @@
 
         gameOfLife.grid = gameOfLife.makeGrid('GoL');
         gameOfLife.animate();
+        //gameOfLife.draw();
+
+        /*
+        for (var i=1; i<250; i++) {
+            gameOfLife.grid = gameOfLife.step()
+            gameOfLife.draw();           
+        }
+        */
+
+        /*
+        for (let i = 1; i < 100; i++) {
+            setTimeout(function timer() {
+                gameOfLife.grid = gameOfLife.step(1)
+                gameOfLife.draw();
+                console.log("tipo 1")
+        }, i * 10);
+        }
+        */
+
+
+        /*
+        var period = 1000; // ms
+        var endTime = 10000;  // ms
+        var counter = 0;
+
+        var sleepyAlert = setInterval(function(){
+            console.log('Hello');
+                gameOfLife.grid = gameOfLife.step(1)
+                gameOfLife.draw();
+        }, 25);
+        */
             
 
     </script>
