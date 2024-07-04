@@ -24,4 +24,6 @@ Per una versione che permetta di inviare i dati bisogna fare le seguenti cose:
 1.  instanziare un server web
 2.  creare un client web che mostrerà l'automa in una pagina web
 3.  inviare i dati con websocket tramite il protocollo osc
+
+(il tutto è piuttosto fattibile, ma bisogna perderci un po' di tempo)
  
